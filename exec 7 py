@@ -1,0 +1,10 @@
+ano = int(input("Digite o ano que voce deseja chegar?"))
+
+mes = int(input("Digite o mes do ano atual?"))
+
+dias = int(input("Digite o dia do mes atual?"))
+
+
+atual = (ano * mes * dias)
+
+print("A idade total em dias é:",atual)
